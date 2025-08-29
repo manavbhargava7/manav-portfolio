@@ -13,8 +13,8 @@ const terminal: TerminalData[] = [
         content: (
           <div className="py-1">
             <div>
-              Hi, this is Xiaohan Zou. I am a PhD student at the Computer Science and
-              Engineering department of Pennsylvania State University.
+            Hello, my name is Manav Bhargava. I am a third year student studying Computer Science 
+            at the University of California, Berkeley.
             </div>
           </div>
         )
@@ -23,14 +23,14 @@ const terminal: TerminalData[] = [
         id: "about-interests",
         title: "interests.txt",
         type: "file",
-        content: "Machine Learning / Computer Vision / Multimodal Learning"
+        content: "Software Engineering, Machine Learning, Artificial Intelligence, and Full Stack Development. I also enjoy playing baseball and listening to music. "
       },
       {
         id: "about-who-cares",
         title: "who-cares.txt",
         type: "file",
         content:
-          "I'm looking for a research internship for Summer 2024. I'm open to collaboration on research projects."
+          "I'm looking for a software engineering internship for Summer 2026. I'm open to working anywhere in the US."
       },
       {
         id: "about-contact",
@@ -42,65 +42,33 @@ const terminal: TerminalData[] = [
               Email:{" "}
               <a
                 className="text-blue-300"
-                href="mailto:renovamenzxh@gmail.com"
+                href="mailto:manavbhargava@berkeley.edu"
                 target="_blank"
                 rel="noreferrer"
               >
-                renovamenzxh@gmail.com
+                manavbhargava@berkeley.edu
               </a>
             </li>
             <li>
               Github:{" "}
               <a
                 className="text-blue-300"
-                href="https://github.com/Renovamen"
+                href="https://github.com/manavbhargava7"
                 target="_blank"
                 rel="noreferrer"
               >
-                @Renovamen
-              </a>
-            </li>
-            <li>
-              <a
-                className="text-blue-300"
-                href="https://scholar.google.com/citations?user=RuW6xgMAAAAJ"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Google Scholar
+                @manavbhargava7
               </a>
             </li>
             <li>
               Linkedin:{" "}
               <a
                 className="text-blue-300"
-                href="https://www.linkedin.com/in/xiaohan-zou"
+                href="https://www.linkedin.com/in/manavbhargava7"
                 target="_blank"
                 rel="noreferrer"
               >
-                xiaohan-zou
-              </a>
-            </li>
-            <li>
-              Personal Website:{" "}
-              <a
-                className="text-blue-300"
-                href="https://zxh.me"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://zxh.me
-              </a>
-            </li>
-            <li>
-              知乎:{" "}
-              <a
-                className="text-blue-300"
-                href="https://www.zhihu.com/people/chao-neng-gui-su"
-                target="_blank"
-                rel="noreferrer"
-              >
-                @西伯利亚大恶龙
+                manavbhargava7
               </a>
             </li>
           </ul>

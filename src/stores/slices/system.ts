@@ -18,14 +18,20 @@ export interface SystemSlice {
   setBrightness: (v: number) => void;
 }
 
-export const createSystemSlice: StateCreator<SystemSlice> = (set) => ({
-  dark: false,
-  volume: 100,
-  brightness: 80,
-  wifi: true,
-  bluetooth: true,
-  airdrop: true,
-  fullscreen: false,
+export const createSystemSlice: StateCreator<SystemSlice> = (set) => {
+  // Initialize dark mode on app startup
+  if (typeof document !== 'undefined') {
+    document.documentElement.classList.add("dark");
+  }
+  
+  return {
+    dark: true,
+    volume: 100,
+    brightness: 80,
+    wifi: true,
+    bluetooth: true,
+    airdrop: true,
+    fullscreen: false,
   toggleDark: () =>
     set((state) => {
       if (!state.dark) document.documentElement.classList.add("dark");
@@ -46,4 +52,5 @@ export const createSystemSlice: StateCreator<SystemSlice> = (set) => ({
     }),
   setVolume: (v) => set(() => ({ volume: v })),
   setBrightness: (v) => set(() => ({ brightness: v }))
-});
+  };
+};
